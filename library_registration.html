@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Library Member Profile</title>
+    <link rel="icon" href="favicon.png">
+</head>
+
+<body bgcolor="#eef2f5">
+
+    <!-- Header -->
+    <table width="100%" bgcolor="#174578" cellpadding="20">
+        <tr>
+            <td align="center">
+                <h1><font color="white">📚 Library Member Profile</font></h1>
+                <p><font color="white">
+                    Welcome to our <b>Library Membership</b> page.
+                </font></p>
+                <i><font color="white">Read • Learn • Grow</font></i>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Member Profile -->
+    <table width="94%" align="center" bgcolor="white" cellpadding="15">
+        <tr>
+            <td>
+                <h2><font color="#174578">Member Profile</font></h2>
+
+                <img src="Sagor.jpeg" width="80" alt="Shafiqur">
+
+                <p><b>Name:</b> Shafiqur</p>
+                <p><b>Member ID:</b> 24-57262-2</p>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Members Table -->
+    <table width="94%" align="center" bgcolor="white" cellpadding="15">
+        <tr>
+            <td>
+                <h2><font color="#174578">Library Members</font></h2>
+
+                <table width="100%" border="1" cellpadding="10"
+                       cellspacing="0">
+
+                    <tr bgcolor="#174578" align="center">
+                        <th><font color="white">Member ID</font></th>
+                        <th><font color="white">Name</font></th>
+                        <th><font color="white">Email</font></th>
+                        <th><font color="white">Image</font></th>
+                    </tr>
+
+                    <tr align="center">
+                        <td>24-57262-2</td>
+                        <td>Shafiqur</td>
+                        <td>shafiqurrahman7400@gmail.com</td>
+                        <td><img src="Sagor.jpeg" width="60"></td>
+                    </tr>
+
+                    <tr align="center">
+                        <td>24-57227-2</td>
+                        <td>Shimanto</td>
+                        <td>shimantashaha.71@gmail.com</td>
+                        <td><img src="Shimanto.jpg" width="60"></td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+    <!-- Registration Form -->
+    <table width="94%" align="center" bgcolor="white" cellpadding="15">
+        <tr>
+            <td>
+
+                <h2 align="center">
+                    <font color="#174578">
+                        Membership Registration Form
+                    </font>
+                </h2>
+
+                <p align="center">
+                    Fill in the form below to become a library member.
+                </p>
+
+                <form action="" method="get">
+
+                    <table width="100%" cellpadding="7">
+
+                        <tr>
+                            <td>
+                                <input type="text"
+                                       name="name"
+                                       placeholder="Name"
+                                       size="50"
+                                       required>
+                            </td>
+
+                            <td>
+                                <input type="email"
+                                       name="email"
+                                       placeholder="Email"
+                                       size="50"
+                                       required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="password"
+                                       name="password"
+                                       placeholder="Password"
+                                       size="50"
+                                       required>
+                            </td>
+
+                            <td>
+                                <input type="number"
+                                       name="age"
+                                       placeholder="Age"
+                                       size="50"
+                                       required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <input type="date"
+                                       name="dob"
+                                       required>
+                            </td>
+
+                            <td>
+                                <b>Gender:</b>
+
+                                <input type="radio"
+                                       name="gender"
+                                       value="Male"
+                                       required> Male
+
+                                <input type="radio"
+                                       name="gender"
+                                       value="Female"> Female
+
+                                <input type="radio"
+                                       name="gender"
+                                       value="Other"> Other
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <select name="membership" required>
+                                    <option value="">
+                                        Membership Type
+                                    </option>
+                                    <option>Regular</option>
+                                    <option>Premium</option>
+                                    <option>Student</option>
+                                </select>
+                            </td>
+
+                            <td>
+                                <input type="file" name="picture">
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <textarea name="address"
+                                          rows="4"
+                                          cols="100"
+                                          placeholder="Enter your address"
+                                          required></textarea>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td colspan="2">
+                                <input type="checkbox"
+                                       name="terms"
+                                       required>
+
+                                I agree to the
+                                <a href="#">terms and conditions</a>.
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td align="center">
+                                <input type="submit"
+                                       value="Register">
+                            </td>
+
+                            <td align="center">
+                                <input type="reset"
+                                       value="Reset">
+                            </td>
+                        </tr>
+
+                    </table>
+
+                </form>
+
+            </td>
+        </tr>
+    </table>
+
+    <br>
+
+</body>
+</html>
